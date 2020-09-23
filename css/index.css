@@ -160,6 +160,9 @@ li .contact-btn {
     height: 454px;
     padding-top: 40px;
     display: none;
+    transition-property: display;
+    transition-duration: 5s;
+    transition-delay: 2s;
 }
 div :hover .background{
     display: block;
@@ -321,12 +324,12 @@ div :hover .background{
 }
 
 .card {
-    display: inline-block;
     height: 470px;
     width: 305px;
     border: 2px solid #F1F1F1;
     border-radius: 40px 0px 40px 0px;
     margin-left: 40px;
+    float: left;
 }
 
 #first-card {
@@ -353,6 +356,11 @@ div :hover .background{
     border: 2px black;
     border-bottom-right-radius: 40px;
     padding:20px ;
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+}
+.card:hover .card-info{
+    margin-top: 342px;
 }
 .card-head{
     font-size: 25px;
