@@ -16,7 +16,7 @@
         </div>
         <div class="right-header">
             <ul class="nav-section">
-                <li class="head-menu"><a href="" class="nav-li">Home</a></li>
+                <li class="head-menu"><a href="" class="nav-li" id="head-li-one">Home</a></li>
                 <li class="head-menu"><a href="" class="nav-li">About Us</a></li>
                 <li class="head-menu"><a href="" class="nav-li">Our Classes</a></li>
                 <li class="head-menu"><a href="" class="nav-li">Our Trainers</a></li>
@@ -37,7 +37,7 @@
                         src="images/arrow_right.png" alt=""></a>
             </div>
             <div class="home-right">
-                <img src="images/banner_img_2.png" alt="" class="dumbell">
+                <img src="images/banner_img_2.png" alt="" class="w-dumbell">
                 <img src="images/banner_img_1.png" alt="" class="pulldown">
             </div>
         </div>
@@ -94,9 +94,10 @@
             <div class="classes-top">
                 <h1 class="classes-title">Our Classes</h1>
                 <ul class="classes-menu">
-                    <li class="classes-menu-items">All</li>
-                    <li class="classes-menu-items" id="first-list">Mens</li>
-                    <li class="classes-menu-items">Womens</li>
+                    <li class="classes-menu-items" id="first-list"><a href="" class="classes"
+                            id="first-class-id">All</a></li>
+                    <li class="classes-menu-items" id="second-list"><a href="" class="classes">Mens</a></li>
+                    <li class="classes-menu-items"><a href="" class="classes">Womens</a></li>
                 </ul>
             </div>
             <p class="middle-para">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
@@ -111,41 +112,145 @@
             </div>
             <div class="cards">
                 <span>
-                <div class="card" id="first-card">
-                    <div class="card-info" id="c1">
-                        <h4 class="card-head">Body Building</h4>
-                        <p class="timing"><img src="images/clock_icon.png" alt=""> Mon-Fri | 9.00 - 10.00</p>
+                    <div class="card" id="first-card">
+                        <div class="card-info" id="c1">
+                            <h4 class="card-head">Body Building</h4>
+                            <p class="timing"><img src="images/clock_icon.png" alt=""> Mon-Fri | 9.00 - 10.00</p>
+                        </div>
                     </div>
-                </div>
                 </span>
                 <span>
-                <div class="card" id="second-card">
-                    <div class="card-info" id="c2">
-                        <h4 class="card-head">Body Building</h4>
-                        <p class="timing"><img src="images/clock_icon.png" alt=""> Mon-Fri | 9.00 - 10.00</p>
+                    <div class="card" id="second-card">
+                        <div class="card-info" id="c2">
+                            <h4 class="card-head">Body Building</h4>
+                            <p class="timing"><img src="images/clock_icon.png" alt=""> Mon-Fri | 9.00 - 10.00</p>
+                        </div>
                     </div>
-                </div>
                 </span>
                 <span>
-                <div class="card" id="third-card">
-                    <div class="card-info" id="c3">
-                        <h4 class="card-head">Body Building</h4>
-                        <p class="timing"><img src="images/clock_icon.png" alt=""> Mon-Fri | 9.00 - 10.00</p>
+                    <div class="card" id="third-card">
+                        <div class="card-info" id="c3">
+                            <h4 class="card-head">Body Building</h4>
+                            <p class="timing"><img src="images/clock_icon.png" alt=""> Mon-Fri | 9.00 - 10.00</p>
+                        </div>
                     </div>
-                </div>
                 </span>
                 <span>
-                <div class="card" id="last-card">
-                    <div class="card-info" id="c4">
-                        <h4 class="card-head">Body Building</h4>
-                        <p class="timing"><img src="images/clock_icon.png" alt=""> Mon-Fri | 9.00 - 10.00</p>
+                    <div class="card" id="last-card">
+                        <div class="card-info" id="c4">
+                            <h4 class="card-head">Body Building</h4>
+                            <p class="timing"><img src="images/clock_icon.png" alt=""> Mon-Fri | 9.00 - 10.00</p>
+                        </div>
                     </div>
-                </div>
                 </span>
             </div>
         </div>
     </section>
-
+    <section class="our-pricing">
+        <div class="container">
+            <h1 class="pricing-head">Our Pricing</h1>
+            <p class="pricing-para">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            <div class="plan-card-section">
+                <span class="plan" id="Basic-plan">
+                    <div class="dumbell"></div>
+                    <div class="plan-info">
+                        <h2 class="plan-head">Basic Plan</h2>
+                        <p class="plan-para">Sed ut perspiciatis unde natus error sit quae ab illo inventor</p>
+                        <h2 class="plan-price">&dollar;340/Month</h2>
+                        <a href="" class="get-started">Get Started</a>
+                    </div>
+                </span>
+                <span class="plan">
+                    <div class="dumbell"></div>
+                    <div class="plan-info">
+                        <h2 class="plan-head">Professional Plan</h2>
+                        <p class="plan-para">Sed ut perspiciatis unde natus error sit quae ab illo inventor</p>
+                        <h2 class="plan-price">&dollar;340/Month</h2>
+                        <a href="" class="get-started">Get Started</a>
+                    </div>
+                </span>
+                <span class="plan">
+                    <div class="dumbell"></div>
+                    <div class="plan-info">
+                        <h2 class="plan-head">Standard Plan</h2>
+                        <p class="plan-para">Sed ut perspiciatis unde natus error sit quae ab illo inventor</p>
+                        <h2 class="plan-price">&dollar;340/Month</h2>
+                        <a href="" class="get-started">Get Started</a>
+                    </div>
+                </span>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container">
+            <h1 class="contact-head">Contact us</h1>
+            <form action="">
+                <div class="top-details">
+                    <input type="text" id="name-input" name="name" class="input" value="Name">
+                    <input type="email" name="email"  class="input" value="Email">
+                </div>
+                <div class="down-details">
+                    <input type="tel" id="phone-input" name="phone-number" class="input" value="Phone#">
+                    <select name="budget" placeholder="Budget" class="input" id="input-budget">
+                        <option value="" class="bugdet-text" disabled selected hidden>Budget</option>
+                        <option value="" class="bugdet-text">&dollar;10 - &dollar;100</option>
+                        <option value="" class="bugdet-text">&dollar;100 - &dollar;200</option>
+                        <option value="" class="bugdet-text">&dollar;200 - &dollar;300</option>
+                    </select>
+                </div>
+                <textarea name="Mesage" class="Message-box" placeholder="Message" id="" cols="30" rows="10"></textarea><br>
+                <input type="submit" value="Send Message" class="send-message">
+            </form>
+        </div>
+    </section>
+    <section class="review">
+        <div class="container" id="last-page-container">
+            <h1 class="review-head">What People Says About Us?</h1>
+            <p class="review-para">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            <div class="middle-body">
+                <span class="left-review">              
+                    <fieldset>
+                        <legend><img src="images/user_man.png" alt="" class="profile-pic"></legend>   
+                            <div class="profile-content">
+                                <img src="images/star_rated.png" alt="" class="stars">
+                                <img src="images/star_rated.png" alt="" class="stars">
+                                <img src="images/star_rated.png" alt="" class="stars">
+                                <img src="images/star_rated.png" alt="" class="stars">
+                                <img src="images/star_rated.png" alt="" class="stars">
+                                <p class="profile-para">Sed ut perspiciatis unde omnis iste natus error sit volup tatem accusantium doloremque laudantium totam rem aperiam, eaque ipsa.</p>
+                                <h4 class="profile-name">Christopher Doe</h4>
+                                <h6 class="address">Orlando, Florida</h6>
+                            </div>
+                    </fieldset> 
+                </span>
+                <span class="right-review">              
+                    <fieldset>
+                        <legend><img src="images/user_woman.png" alt="" class="profile-pic"></legend>   
+                            <div class="profile-content">
+                                <img src="images/star_rated.png" alt="" class="stars">
+                                <img src="images/star_rated.png" alt="" class="stars">
+                                <img src="images/star_rated.png" alt="" class="stars">
+                                <img src="images/star_rated.png" alt="" class="stars">
+                                <img src="images/star_normal.png" alt="" class="stars">
+                                <p class="profile-para">Sed ut perspiciatis unde omnis iste natus error sit volup tatem accusantium doloremque laudantium totam rem aperiam, eaque ipsa.</p>
+                                <h4 class="profile-name">Sara James</h4>
+                                <h6 class="address">Orlando, Florida</h6>
+                            </div>
+                    </fieldset> 
+                </span>
+            </div>
+        </div>
+        <footer>
+            <div class="left-footer">
+                <h6 class="copyright">&copy;2019 POWER Gym-Co. All Rights Reserved</h6>
+            </div>
+            <div class="right-footer">
+                <span class="icons"><img src="images/insta_icon.png" class="social-icons" alt=""></span>
+                <span class="icons"><img src="images/twitter_icon.png" class="social-icons" id="twitter" alt=""></span>
+                <span class="icons"><img src="images/fb_icon.png" class="social-icons" alt=""></span>
+            </div>
+        </footer>
+    </section>
 </body>
 
 </html>
