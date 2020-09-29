@@ -54,6 +54,7 @@
     max-width: 1280px;
     margin: auto;
     overflow: hidden;
+    padding: 120px 0px;
 }
 
 li #nav-btn,
@@ -68,7 +69,6 @@ li #nav-btn,
 .home {
     background-image: url("../images/banner_bg.png");
     background-repeat: no-repeat;
-    padding: 0px 120px;
 }
 
 #home-container {
@@ -142,6 +142,7 @@ li .contact-btn {
     width: 596px;
     float: left;
     margin-top: 123px;
+    height: 331px;
 }
 
 .pulldown {
@@ -174,14 +175,13 @@ li .contact-btn {
     background-color: rgba(249, 37, 36, 0.6);
     height: 454px;
     padding-top: 40px;
-    display: none;
-    transition-property: display;
-    transition-duration: 5s;
-    transition-delay: 2s;
+    opacity: 0;
+    transition-duration: 1s;
+    transition-delay: 0.2s;
 }
 
 div :hover .background {
-    display: block;
+    opacity: 1;
 }
 
 .gymnastic {
@@ -217,8 +217,7 @@ div :hover .background {
 }
 
 .our-story {
-    padding: 120px;
-    height: 609px;
+    clear: both;
 }
 
 .heading3 {
@@ -283,9 +282,9 @@ div :hover .background {
 }
 
 .our-classes {
-    padding: 120px;
     background-color: #F1F1F1;
 }
+
 
 .classes-title {
     display: inline-block;
@@ -376,6 +375,12 @@ div :hover .background {
     float: left;
 }
 
+.all-card {
+    clear: both;
+    /* width: 128px; */
+    display: inline-block;
+}
+
 #first-card {
     background-image: url("../images/class_1.png");
     margin-left: 0px;
@@ -406,6 +411,7 @@ div :hover .background {
 
 .card:hover .card-info {
     margin-top: 342px;
+    border-bottom-right-radius: 0px;
 }
 
 .card-head {
@@ -416,10 +422,6 @@ div :hover .background {
 
 .timing {
     font-size: 20px;
-}
-
-.our-pricing {
-    padding: 120px;
 }
 
 .pricing-head {
@@ -468,13 +470,14 @@ div :hover .background {
 }
 
 .plan:hover {
-    border: 3px solid #F92524;
+    border: 2px solid #F92524;
     border-radius: 10px;
 }
 
 .plan:hover .get-started {
     color: #FFFFFF;
     background-color: #F92524;
+    border: 1px solid white;
 }
 
 .plan-head {
@@ -511,10 +514,6 @@ div :hover .background {
     margin: 0px auto;
     display: block;
     width: 113px;
-}
-
-.contact {
-    padding: 120px;
 }
 
 .contact-head {
@@ -570,6 +569,8 @@ div :hover .background {
     border: 0px solid white;
     border-radius: 53px;
     margin-left: 40px;
+    position: relative;
+    bottom: 55px;
 }
 
 fieldset {
